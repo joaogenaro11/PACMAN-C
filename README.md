@@ -6,23 +6,38 @@ Inclusão de Bibliotecas:
 c
 Copy code
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <unistd.h>
+
 #include <termios.h>
+
 #include <time.h>
+
 #include <stdbool.h>
+
 stdio.h: Para operações de entrada e saída.
+
 stdlib.h: Para funções utilitárias como rand() e exit().
+
 unistd.h: Para funções de controle do sistema, como usleep().
+
 termios.h: Para modificar o comportamento do terminal.
+
 time.h: Para operações relacionadas ao tempo, como srand().
+
 stdbool.h: Para usar o tipo de dado booleano (true/false).
+
 Definição do Tamanho do Jogo:
 
 c
 Copy code
+
 #define WIDTH 20
+
 #define HEIGHT 10
+
 Define a largura e altura do campo de jogo.
 
 Estruturas de Dados:
